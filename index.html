@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ocean Doula | Naphy — Birth Doula &amp; Online Birth Education</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ───────────── NAVBAR ───────────── -->
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-wave">〰</span>
+      <span class="logo-text" data-en="Ocean Doula" data-zh="海洋媽媽孕產支持">Ocean Doula</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#about"         data-en="About"          data-zh="關於我">About</a>
+      <a href="#story"         data-en="My Story"        data-zh="我的故事">My Story</a>
+      <a href="#services"      data-en="Support"         data-zh="支持">Support</a>
+      <a href="products.html"  data-en="Products"        data-zh="產品">Products</a>
+      <a href="resources.html" data-en="Free Resources"  data-zh="免費資源">Free Resources</a>
+      <a href="#contact"       data-en="Contact"         data-zh="聯繫">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <span class="lang-option active" id="langEN">EN</span>
+        <span class="lang-sep">|</span>
+        <span class="lang-option" id="langZH">中文</span>
+      </button>
+      <a href="#contact" class="btn-primary nav-cta"
+         data-en="Book a Call" data-zh="預約諮詢">Book a Call</a>
+    </div>
+  </div>
+</header>
+
+<!-- ───────────── HERO ───────────── -->
+<section id="home" class="hero">
+  <div class="wave-bg">
+    <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,60 C360,120 1080,0 1440,60 L1440,120 L0,120 Z" fill="var(--ocean-mist)"/></svg>
+  </div>
+  <div class="hero-content">
+    <p class="hero-eyebrow"
+       data-en="Certified Birth Doula · Perth, Australia · Virtual Worldwide"
+       data-zh="認證專業陪產員・澳洲珀斯・線上服務全球">Certified Birth Doula · Perth, Australia · Virtual Worldwide</p>
+    <h1 data-en="Calm, informed,<br>supported birth<br>begins here."
+        data-zh="安心、有準備、<br>有支持的生產旅程，<br>從這裡開始。">Calm, informed,<br>supported birth<br>begins here.</h1>
+    <p class="hero-sub"
+       data-en="Birth is not something that happens to you. It's a journey you can understand, prepare for, and move through with confidence — with the right support by your side."
+       data-zh="生產不是被動經歷，而是一段可以被理解、被準備、被支持的旅程。在其中，媽媽始終是中心，並有能力帶著自信與自主決策迎接生命的誕生。">Birth is not something that happens to you. It's a journey you can understand, prepare for, and move through with confidence — with the right support by your side.</p>
+    <div class="hero-cta">
+      <a href="products.html" class="btn-primary"
+         data-en="Explore Online Courses" data-zh="探索線上課程">Explore Online Courses</a>
+      <a href="#contact" class="btn-ghost"
+         data-en="Book a Doula Consultation" data-zh="預約陪產諮詢">Book a Doula Consultation</a>
+    </div>
+  </div>
+  <div class="hero-image-wrap">
+    <div class="hero-circle">
+      <img src="hero-photo.jpg" alt="Naphy — Ocean Doula" onerror="this.style.display='none'" />
+      <div class="hero-circle-placeholder">🌊</div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────── TRUST BAR ───────────── -->
+<section class="trust-bar">
+  <div class="trust-inner">
+    <div class="trust-item">
+      <span class="trust-num">2</span>
+      <span class="trust-label" data-en="Births as a mama" data-zh="自身分娩經歷">Births as a mama</span>
+    </div>
+    <div class="trust-divider"></div>
+    <div class="trust-item">
+      <span class="trust-num">100%</span>
+      <span class="trust-label" data-en="Virtual — worldwide" data-zh="線上服務全球">Virtual — worldwide</span>
+    </div>
+    <div class="trust-divider"></div>
+    <div class="trust-item">
+      <span class="trust-num">24/7</span>
+      <span class="trust-label" data-en="On-call support" data-zh="全天候支持">On-call support</span>
+    </div>
+    <div class="trust-divider"></div>
+    <div class="trust-item">
+      <span class="trust-num" data-en="EN·中" data-zh="中·EN">EN·中</span>
+      <span class="trust-label" data-en="Bilingual care" data-zh="雙語服務">Bilingual care</span>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────── PAIN POINTS ───────────── -->
+<section class="pain section">
+  <div class="container">
+    <p class="section-eyebrow center"
+       data-en="Does this sound familiar?" data-zh="這些感受，你是否也有過？">Does this sound familiar?</p>
+    <h2 class="center"
+        data-en="Pregnancy &amp; birth can feel overwhelming." data-zh="懷孕與生產，常常伴隨著不確定與焦慮。">Pregnancy &amp; birth can feel overwhelming.</h2>
+    <div class="pain-grid">
+      <div class="pain-item">
+        <span class="pain-icon">🌀</span>
+        <p data-en="You're not sure when to go to the hospital — and the uncertainty is stressful."
+           data-zh="不確定何時該去醫院，這種不確定讓你很焦慮。">You're not sure when to go to the hospital — and the uncertainty is stressful.</p>
+      </div>
+      <div class="pain-item">
+        <span class="pain-icon">😶</span>
+        <p data-en="You're afraid of losing control in the birthing room."
+           data-zh="擔心在產房中失去掌控感。">You're afraid of losing control in the birthing room.</p>
+      </div>
+      <div class="pain-item">
+        <span class="pain-icon">📱</span>
+        <p data-en="You've received so much advice it's left you more confused, not less."
+           data-zh="接收了大量建議，反而更加混亂。">You've received so much advice it's left you more confused, not less.</p>
+      </div>
+      <div class="pain-item">
+        <span class="pain-icon">🌿</span>
+        <p data-en="You want to prepare for a natural birth but don't know where to start."
+           data-zh="想要自然生產，但不知道如何準備。">You want to prepare for a natural birth but don't know where to start.</p>
+      </div>
+      <div class="pain-item">
+        <span class="pain-icon">🤍</span>
+        <p data-en="You just want someone who truly understands what you're going through."
+           data-zh="你希望有人能真正理解你正在經歷的一切。">You just want someone who truly understands what you're going through.</p>
+      </div>
+      <div class="pain-item pain-answer">
+        <span class="pain-icon">🌊</span>
+        <p data-en="You don't need more information. You need a system that helps you organise it — and someone to walk through it with you."
+           data-zh="你不需要更多資訊，你需要的是能幫你整理一切、並陪你同行的系統與支持。">You don't need more information. You need a system that helps you organise it — and someone to walk through it with you.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────── ABOUT ───────────── -->
+<section id="about" class="about section bg-mist">
+  <div class="container two-col">
+    <div class="about-image-wrap">
+      <div class="about-img-frame">
+        <img src="about-photo.jpg" alt="Naphy — Ocean Doula" onerror="this.style.display='none'" />
+        <div class="about-img-placeholder">🌿</div>
+      </div>
+      <div class="about-badge">
+        <span data-en="DONA International<br>Certified Doula" data-zh="DONA國際<br>認證陪產員">DONA International<br>Certified Doula</span>
+      </div>
+    </div>
+    <div class="about-text">
+      <p class="section-eyebrow" data-en="About Naphy" data-zh="關於 Naphy">About Naphy</p>
+      <h2 data-en="Hi, I'm Naphy." data-zh="你好，我是 Naphy。">Hi, I'm Naphy.</h2>
+      <p data-en="I'm a certified birth doula based in Perth, Australia — and a mum of two. I support women virtually, wherever they are in the world."
+         data-zh="我是一位認證專業陪產員，座標澳洲珀斯，同時也是兩個孩子的媽媽。我透過線上方式支持全球的孕產媽媽。">I'm a certified birth doula based in Perth, Australia — and a mum of two. I support women virtually, wherever they are in the world.</p>
+      <p data-en="Through my own two profoundly different birth experiences — and the births I've supported as a doula — I've developed the Birth Navigation Method™: a system that helps women understand their bodies, see their choices, and reclaim their trust and agency in the birthing room."
+         data-zh="透過我自身兩次截然不同的生產經歷，以及作為陪產員所陪伴的每一場分娩，我發展出「生產導航法™」：一套幫助女性理解身體、看見選擇、重新拿回信任與主導權的系統。">Through my own two profoundly different birth experiences — and the births I've supported as a doula — I've developed the Birth Navigation Method™: a system that helps women understand their bodies, see their choices, and reclaim their trust and agency in the birthing room.</p>
+      <ul class="about-list">
+        <li data-en="DONA International Certified Birth Doula" data-zh="DONA國際認證分娩陪產員">DONA International Certified Birth Doula</li>
+        <li data-en="Childbirth Education Certificate" data-zh="分娩教育證書">Childbirth Education Certificate</li>
+        <li data-en="Infant CPR &amp; First Aid Certified" data-zh="嬰兒心肺復甦及急救認證">Infant CPR &amp; First Aid Certified</li>
+        <li data-en="Native Mandarin speaker — bilingual EN &amp; 繁中" data-zh="母語為普通話 — 中英雙語">Native Mandarin speaker — bilingual EN &amp; 繁中</li>
+        <li data-en="Based in Perth, Australia · Serving globally online" data-zh="駐澳大利亞珀斯・線上服務全球家庭">Based in Perth, Australia · Serving globally online</li>
+      </ul>
+      <a href="#story" class="btn-primary"
+         data-en="Read My Birth Story" data-zh="閱讀我的生產故事">Read My Birth Story</a>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────── STORY ───────────── -->
+<section id="story" class="story section">
+  <div class="container story-container">
+    <p class="section-eyebrow center"
+       data-en="My Story" data-zh="我的故事">My Story</p>
+    <h2 class="center"
+        data-en="A journey from experience to expertise." data-zh="一段從經歷走向專業的旅程。">A journey from experience to expertise.</h2>
+
+    <div class="story-grid">
+      <div class="story-card">
+        <div class="story-num">01</div>
+        <h3 data-en="First Birth — Finding Power in the Unknown" data-zh="第一胎 — 在未知中找到力量">First Birth — Finding Power in the Unknown</h3>
+        <p data-en="My first baby was born in 2023. I had planned a home birth — but found myself in a highly medicalised hospital system instead."
+           data-zh="我的第一個孩子於2023年出生。原本計劃居家生產，卻進入了高度醫療介入的醫院系統。">My first baby was born in 2023. I had planned a home birth — but found myself in a highly medicalised hospital system instead.</p>
+        <p data-en="In the middle of that pressure and uncertainty, I learned to speak up for myself, to understand medical decisions, and to fight for my choices — one moment at a time. I ended up birthing unmedicated in the hospital bathroom. It was one of the most powerful experiences of my life."
+           data-zh="在那段壓力與不確定中，我學會了為自己發聲、理解醫療決策，並一步步爭取屬於自己的選擇。最終，我在醫院的浴室裡完成了一段充滿力量的無用藥自然生產。這是我人生中最有力量的經歷之一。">In the middle of that pressure and uncertainty, I learned to speak up for myself, to understand medical decisions, and to fight for my choices — one moment at a time. I ended up birthing unmedicated in the hospital bathroom. It was one of the most powerful experiences of my life.</p>
+        <p data-en="That experience set me on the path to becoming a doula."
+           data-zh="這段經歷，讓我開始走向陪產員的專業道路。">That experience set me on the path to becoming a doula.</p>
+      </div>
+
+      <div class="story-card">
+        <div class="story-num">02</div>
+        <h3 data-en="Second Birth — A Gentle Caesarean, with Full Agency" data-zh="第二胎 — 充滿力量的溫柔剖腹">Second Birth — A Gentle Caesarean, with Full Agency</h3>
+        <p data-en="In 2025, I welcomed my second baby. This time, I was diagnosed with complete placenta praevia — and found myself back at the centre of the medical system."
+           data-zh="2025年，我迎來第二胎。這次因「完全性前置胎盤」，我再次回到醫療系統的中心。">In 2025, I welcomed my second baby. This time, I was diagnosed with complete placenta praevia — and found myself back at the centre of the medical system.</p>
+        <p data-en="But this time, I came with the knowledge and tools of a trained doula. I navigated the space between medical safety and personal expectations — and had a caesarean birth that was safe, respected, and powerful."
+           data-zh="不同的是，這一次我帶著專業陪產員的知識與工具。在醫療安全與個人期待之間，我找到了平衡，最終完成了一場安全、被尊重且充滿力量的溫柔剖腹生產。">But this time, I came with the knowledge and tools of a trained doula. I navigated the space between medical safety and personal expectations — and had a caesarean birth that was safe, respected, and powerful.</p>
+        <p data-en="Both experiences live in everything I teach and every woman I support."
+           data-zh="這兩段經歷，都活在我所教授的每一堂課，以及我所陪伴的每一位媽媽之中。">Both experiences live in everything I teach and every woman I support.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────── BELIEF ───────────── -->
+<section class="belief section bg-mist">
+  <div class="container belief-inner">
+    <p class="section-eyebrow center"
+       data-en="What I Believe" data-zh="我的信念">What I Believe</p>
+    <blockquote data-en="Every baby deserves to arrive in the warmth of their mother's calm and love. Every mother can combine scientific understanding and inner instinct to make choices that are truly her own."
+                data-zh="我相信，每一位寶寶都值得在媽媽的安心與愛之中誕生。我也相信，每一位媽媽都可以結合科學理解與內在直覺，在孕產旅程中做出屬於自己的選擇。">Every baby deserves to arrive in the warmth of their mother's calm and love. Every mother can combine scientific understanding and inner instinct to make choices that are truly her own.</blockquote>
+    <p class="belief-sub"
+       data-en="Birth is not just an outcome. It's a process that can be supported, understood, and reclaimed — one in which you are always at the centre."
+       data-zh="生產不只是結果，而是一段可以被支持、被理解、並重新奪回信任感的過程 — 而你，始終是中心。">Birth is not just an outcome. It's a process that can be supported, understood, and reclaimed — one in which you are always at the centre.</p>
+  </div>
+</section>
+
+<!-- ───────────── SERVICES ───────────── -->
+<section id="services" class="services section">
+  <div class="container">
+    <p class="section-eyebrow center"
+       data-en="How I Can Support You" data-zh="我能如何支持你">How I Can Support You</p>
+    <h2 class="center"
+        data-en="Two ways to work with Naphy" data-zh="與 Naphy 合作的兩種方式">Two ways to work with Naphy</h2>
+    <div class="service-two">
+
+      <div class="service-block">
+        <div class="service-icon">🌊</div>
+        <h3 data-en="Online Birth Preparation Courses" data-zh="線上生產準備課程">Online Birth Preparation Courses</h3>
+        <p data-en="Designed for first-time mamas — or anyone who wants to truly understand birth."
+           data-zh="為第一次生產或想重新理解生產的媽媽設計。">Designed for first-time mamas — or anyone who wants to truly understand birth.</p>
+        <ul class="about-list">
+          <li data-en="Understand the stages of labor" data-zh="理解產程的各個階段">Understand the stages of labor</li>
+          <li data-en="Know when to go to the hospital" data-zh="了解何時該前往醫院">Know when to go to the hospital</li>
+          <li data-en="Reduce fear and uncertainty" data-zh="降低恐懼與不確定感">Reduce fear and uncertainty</li>
+          <li data-en="Prepare your partner to truly support you" data-zh="準備好伴侶真正支持你">Prepare your partner to truly support you</li>
+          <li data-en="Make clear, confident decisions in the room" data-zh="在產房中做出清晰自信的決策">Make clear, confident decisions in the room</li>
+        </ul>
+        <a href="products.html" class="btn-primary"
+           data-en="View Online Courses" data-zh="查看線上課程">View Online Courses</a>
+      </div>
+
+      <div class="service-block service-block-alt">
+        <div class="service-icon">🤝</div>
+        <h3 data-en="1:1 Doula Support" data-zh="1對1 陪產支持">1:1 Doula Support</h3>
+        <p data-en="For mamas who want personalised, continuous support through their pregnancy and birth journey."
+           data-zh="為希望在孕產過程中獲得個人化、持續支持的媽媽而設。">For mamas who want personalised, continuous support through their pregnancy and birth journey.</p>
+        <ul class="about-list">
+          <li data-en="Birth plan consultation" data-zh="生產計畫討論">Birth plan consultation</li>
+          <li data-en="Labor strategy and emotional support" data-zh="待產策略與情緒支持">Labor strategy and emotional support</li>
+          <li data-en="Medical communication preparation" data-zh="醫療溝通準備">Medical communication preparation</li>
+          <li data-en="Virtual on-call presence and guidance" data-zh="線上陪伴與即時指引">Virtual on-call presence and guidance</li>
+        </ul>
+        <a href="#contact" class="btn-primary"
+           data-en="Book a Consultation" data-zh="預約一對一支持">Book a Consultation</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ───────────── TESTIMONIALS ───────────── -->
+<section id="testimonials" class="testimonials section bg-mist">
+  <div class="container">
+    <p class="section-eyebrow center" data-en="Kind Words" data-zh="溫暖心聲">Kind Words</p>
+    <h2 class="center" data-en="Stories from Families" data-zh="家庭們的故事">Stories from Families</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial">
+        <p class="quote"
+           data-en="&ldquo;Having a Mandarin-speaking doula meant my mother-in-law could be truly involved. She understood what was happening and felt reassured the whole time. It changed everything.&rdquo;"
+           data-zh="「有一位說普通話的陪產員，意味著我婆婆可以真正參與其中。她明白發生了什麼，全程都感到安心。這改變了一切。」">&ldquo;Having a Mandarin-speaking doula meant my mother-in-law could be truly involved. She understood what was happening and felt reassured the whole time. It changed everything.&rdquo;</p>
+        <p class="quote-name">— Michelle &amp; James, Singapore</p>
+      </div>
+      <div class="testimonial">
+        <p class="quote"
+           data-en="&ldquo;I was terrified going in. Naphy never left my side. She reminded me of my strength when I forgot I had any. I could not have done it without her.&rdquo;"
+           data-zh="「我進去時非常害怕。Naphy從未離開我身邊。當我忘記自己有力量時，她提醒了我。沒有她我做不到。」">&ldquo;I was terrified going in. Naphy never left my side. She reminded me of my strength when I forgot I had any. I could not have done it without her.&rdquo;</p>
+        <p class="quote-name">— Priya, London</p>
+      </div>
+      <div class="testimonial">
+        <p class="quote"
+           data-en="&ldquo;The 坐月子 guidance after our daughter's birth was something I didn't know I needed. It helped me heal in a way that felt true to who I am.&rdquo;"
+           data-zh="「女兒出生後的坐月子指導是我不知道自己需要的東西。它幫助我以一種真實的方式癒合。」">&ldquo;The 坐月子 guidance after our daughter's birth was something I didn't know I needed. It helped me heal in a way that felt true to who I am.&rdquo;</p>
+        <p class="quote-name">— Lily W., Taipei</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────── FAQ ───────────── -->
+<section class="faq section">
+  <div class="container faq-container">
+    <p class="section-eyebrow center" data-en="Questions" data-zh="常見問題">Questions</p>
+    <h2 class="center" data-en="Frequently Asked" data-zh="常見問答">Frequently Asked</h2>
+    <div class="faq-list">
+
+      <details class="faq-item">
+        <summary data-en="What does a doula actually do?" data-zh="陪產員究竟做什麼？">What does a doula actually do?</summary>
+        <p data-en="A doula provides continuous non-medical support before, during, and after birth. I offer physical comfort techniques, emotional encouragement, and help you navigate your options — so you feel informed and empowered throughout your journey."
+           data-zh="陪產員在分娩前、中、後提供持續的非醫療性支持。我提供身體舒適技巧、情感鼓勵，並幫助你了解各種選擇 — 讓你在整個過程中感到知情和有力量。">A doula provides continuous non-medical support before, during, and after birth. I offer physical comfort techniques, emotional encouragement, and help you navigate your options — so you feel informed and empowered throughout your journey.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary data-en="Do you support medicated and unmedicated births?" data-zh="你支持有藥物和無藥物分娩嗎？">Do you support medicated and unmedicated births?</summary>
+        <p data-en="Absolutely. My role is to support YOUR birth, whatever form that takes — epidural, unmedicated, planned caesarean, VBAC, or anything in between. No judgment, only support."
+           data-zh="當然。我的角色是支持你的分娩，無論採取何種形式 — 硬膜外麻醉、無藥物、計劃剖腹產、子宮疤痕陰道分娩，或任何其他方式。不做評判，只提供支持。">Absolutely. My role is to support YOUR birth, whatever form that takes — epidural, unmedicated, planned caesarean, VBAC, or anything in between. No judgment, only support.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary data-en="Where are you based and who can you support?" data-zh="你在哪裡，可以支持哪些家庭？">Where are you based and who can you support?</summary>
+        <p data-en="I'm based in Perth, Australia and offer 100% virtual doula support — which means I can be with you wherever you are in the world. Whether you're a Mandarin-speaking family in Taiwan or an expat anywhere globally, I'm here for you."
+           data-zh="我駐澳大利亞珀斯，提供100%線上陪產支持 — 無論你在世界何處，我都能陪伴你。無論你是台灣的華語家庭，還是世界各地的外籍家庭，我都在這裡為你服務。">I'm based in Perth, Australia and offer 100% virtual doula support — which means I can be with you wherever you are in the world. Whether you're a Mandarin-speaking family in Taiwan or an expat anywhere globally, I'm here for you.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary data-en="When should I hire a doula?" data-zh="我應該什麼時候聘請陪產員？">When should I hire a doula?</summary>
+        <p data-en="Many families book in the second trimester (14–27 weeks), but it's never too early or too late. I take a limited number of clients each month, so reaching out sooner helps secure your due-date window."
+           data-zh="許多家庭在妊娠中期（14-27週）預約，但永遠不會太早或太晚。我每月接受有限數量的客戶，因此盡早聯繫有助於確保你的預產期檔期。">Many families book in the second trimester (14–27 weeks), but it's never too early or too late. I take a limited number of clients each month, so reaching out sooner helps secure your due-date window.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary data-en="Do you offer sliding-scale pricing?" data-zh="你提供彈性收費嗎？">Do you offer sliding-scale pricing?</summary>
+        <p data-en="Yes. I believe quality doula care should be accessible. Please reach out privately and we can discuss a fee that works for your family."
+           data-zh="是的。我相信優質的陪產支持應該是可及的。請私下聯繫我，我們可以討論適合你家庭的費用。">Yes. I believe quality doula care should be accessible. Please reach out privately and we can discuss a fee that works for your family.</p>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+<!-- ───────────── CONTACT ───────────── -->
+<section id="contact" class="contact section bg-mist">
+  <div class="container two-col contact-grid">
+    <div class="contact-text">
+      <p class="section-eyebrow" data-en="Let's Talk" data-zh="聯繫我們">Let's Talk</p>
+      <h2 data-en="You don't have to face birth alone." data-zh="你不需要獨自面對生產。">You don't have to face birth alone.</h2>
+      <p data-en="You can be supported, understood, and step into your birth with clarity and confidence. The first call is always free."
+         data-zh="你可以被支持、被理解，並帶著清晰與信心迎接你的孩子。第一次通話永遠是免費的。">You can be supported, understood, and step into your birth with clarity and confidence. The first call is always free.</p>
+      <div class="contact-details">
+        <div class="contact-item">
+          <span class="contact-icon">📧</span>
+          <a href="mailto:naphy@oceandoula.com">naphy@oceandoula.com</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">📍</span>
+          <span data-en="Based in Perth, Australia · Serving families worldwide"
+                data-zh="駐澳大利亞珀斯・線上服務全球家庭">Based in Perth, Australia · Serving families worldwide</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">🌐</span>
+          <span data-en="English &amp; 普通話 (Mandarin)" data-zh="普通話 &amp; English">English &amp; 普通話 (Mandarin)</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">📸</span>
+          <a href="https://instagram.com/oceandoula" target="_blank">@oceandoula</a>
+        </div>
+      </div>
+    </div>
+    <form class="contact-form" onsubmit="handleSubmit(event)">
+      <div class="form-row">
+        <div class="form-group">
+          <label data-en="Your name" data-zh="您的姓名">Your name</label>
+          <input type="text" name="name" required placeholder="Jane Doe" />
+        </div>
+        <div class="form-group">
+          <label data-en="Email" data-zh="電子郵件">Email</label>
+          <input type="email" name="email" required placeholder="jane@example.com" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label data-en="Due date (approximate)" data-zh="預產期（大約）">Due date (approximate)</label>
+        <input type="text" name="duedate" placeholder="e.g. September 2026" />
+      </div>
+      <div class="form-group">
+        <label data-en="Preferred language / 首選語言" data-zh="首選語言 / Preferred language">Preferred language / 首選語言</label>
+        <select name="language">
+          <option value="english"  data-en="English"           data-zh="英語">English</option>
+          <option value="mandarin" data-en="Mandarin (普通話)"  data-zh="普通話">Mandarin (普通話)</option>
+          <option value="both"     data-en="Both / 兩者"        data-zh="兩者 / Both">Both / 兩者</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label data-en="Message" data-zh="留言">Message</label>
+        <textarea name="message" rows="4"
+          data-en-placeholder="Tell me about your birth vision or any questions you have…"
+          data-zh-placeholder="告訴我你的分娩願景或你有的任何問題……"
+          placeholder="Tell me about your birth vision or any questions you have…"></textarea>
+      </div>
+      <button type="submit" class="btn-primary full-width"
+              data-en="Send Message" data-zh="傳送留言">Send Message</button>
+      <div class="form-success hidden" id="formSuccess">
+        <p data-en="✨ Message sent! I'll be in touch within 24 hours."
+           data-zh="✨ 留言已傳送！我將在24小時內與您聯繫。">✨ Message sent! I'll be in touch within 24 hours.</p>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- ───────────── FOOTER ───────────── -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="logo-wave">〰</span>
+      <span class="logo-text">Ocean Doula</span>
+    </div>
+    <p class="footer-tagline"
+       data-en="Held by the tide, guided by love."
+       data-zh="潮水相伴，愛意引領。">Held by the tide, guided by love.</p>
+    <nav class="footer-nav">
+      <a href="#about"         data-en="About"          data-zh="關於我">About</a>
+      <a href="#story"         data-en="My Story"        data-zh="我的故事">My Story</a>
+      <a href="products.html"  data-en="Products"        data-zh="產品">Products</a>
+      <a href="resources.html" data-en="Free Resources"  data-zh="免費資源">Free Resources</a>
+      <a href="#contact"       data-en="Contact"         data-zh="聯繫">Contact</a>
+    </nav>
+    <p class="footer-copy"
+       data-en="© 2026 Ocean Doula · Perth, Australia · Serving families worldwide · All rights reserved"
+       data-zh="© 2026 海洋媽媽孕產支持・澳大利亞珀斯・線上服務全球家庭・保留所有權利">© 2026 Ocean Doula · Perth, Australia · Serving families worldwide · All rights reserved</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
